@@ -48,6 +48,11 @@ class FactorialCalculator:
         if self._factorial is None:
             raise ValueError("Спочатку виклич calculate()")
         return self._factorial
+
+## Приклад використання
 fc = FactorialCalculator(5)
 fc.calculate()
 print(fc.factorial)  # 120
+
+Приймає в конструкторі додатне число `n`
+
